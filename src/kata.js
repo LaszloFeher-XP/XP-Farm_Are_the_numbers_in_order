@@ -1,10 +1,11 @@
 class Kata {
 
   inAscOrder(arr) {
-    if (arr[0] === 1) {
-      return true;
-    }
-    return false;
+    const ordered = [...arr];
+    ordered.sort((a, b) => {
+      return a - b;
+    });
+    return arr.join('') === ordered.join('');
   }
 }
 
