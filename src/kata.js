@@ -1,10 +1,10 @@
 class Kata {
 
-    func() {
-
-    }
+  inAscOrder(arr) {
+    return true;
+  }
 }
 
 module.exports = {
-    Kata,
+  Kata,
 };
