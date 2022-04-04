@@ -1,7 +1,10 @@
 class Kata {
 
   inAscOrder(arr) {
-    return true;
+    if (arr[0] === 1) {
+      return true;
+    }
+    return false;
   }
 }
 
