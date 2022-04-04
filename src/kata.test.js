@@ -15,6 +15,11 @@ describe('First story', () => {
     const kata = new Kata();
     expect(kata.inAscOrder([2, 3, 24, 134, 245])).toStrictEqual(true);
   });
+
+  test('GIVEN [1, 6, 10, 18, 2, 4, 20] WHEN runs logic THEN returns false', () => {
+    const kata = new Kata();
+    expect(kata.inAscOrder([1, 6, 10, 18, 2, 4, 20])).toStrictEqual(false);
+  });
 });
 
 
