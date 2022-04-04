@@ -34,7 +34,12 @@ So that create the logic
 #### 1.
 Given [1,2,3]
 When runs logic
-Thenreturns true
+Then returns true
+
+#### 2.
+Given [3,2,1]
+When runs logic
+Then returns false
 
 # Setting up the environment
 
