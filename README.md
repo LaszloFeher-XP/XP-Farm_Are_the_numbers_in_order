@@ -41,6 +41,11 @@ Given [3,2,1]
 When runs logic
 Then returns false
 
+#### 3.
+Given [2,3,24,134,245]
+When runs logic
+Then returns true
+
 # Setting up the environment
 
 ## To install dependencies
