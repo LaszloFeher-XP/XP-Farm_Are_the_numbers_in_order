@@ -20,3 +20,4 @@
 - 3rd test, red
 - 3rd test, green
 - 4th test, green
+- refactored ✔

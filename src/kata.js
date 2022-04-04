@@ -1,8 +1,7 @@
 class Kata {
 
   inAscOrder(arr) {
-    const ordered = [...arr];
-    ordered.sort((a, b) => {
+    const ordered = [...arr].sort((a, b) => {
       return a - b;
     });
     return arr.join('') === ordered.join('');
